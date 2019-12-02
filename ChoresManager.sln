@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Business Logic", "00 Business Logic", "{ED0AA39D-7E52-47C2-8530-2BF191BC3154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 API", "30 API", "{F8BDE91A-2FD1-43F7-920C-2F319AE3BB2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 UI", "60 UI", "{22B83473-73C5-478D-B859-4C2AF92817A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.BusinessLogic", "..\Scheduler.BusinessLogic\Scheduler.BusinessLogic.csproj", "{20E927AB-F3B7-40E2-B4F1-E962BDDB639B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20E927AB-F3B7-40E2-B4F1-E962BDDB639B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E927AB-F3B7-40E2-B4F1-E962BDDB639B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E927AB-F3B7-40E2-B4F1-E962BDDB639B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E927AB-F3B7-40E2-B4F1-E962BDDB639B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20E927AB-F3B7-40E2-B4F1-E962BDDB639B} = {ED0AA39D-7E52-47C2-8530-2BF191BC3154}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74598A92-45FF-46BD-9BA8-5596A30516B6}
+	EndGlobalSection
+EndGlobal
