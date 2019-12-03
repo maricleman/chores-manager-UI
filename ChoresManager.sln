@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Business Logic", "00 Bus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.BusinessLogic", "00 Business Logic\Scheduler.BusinessLogic\Scheduler.BusinessLogic.csproj", "{44C79467-517B-4E1C-9FF6-931FCC1E829B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 APIs", "30 APIs", "{689F39C8-8E34-4503-98C2-42B82F1EB989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.API", "30 APIs\Scheduler.API\Scheduler.API.csproj", "{B9865BF2-7BAD-4D93-9048-1C2C673FBB0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{44C79467-517B-4E1C-9FF6-931FCC1E829B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44C79467-517B-4E1C-9FF6-931FCC1E829B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44C79467-517B-4E1C-9FF6-931FCC1E829B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9865BF2-7BAD-4D93-9048-1C2C673FBB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9865BF2-7BAD-4D93-9048-1C2C673FBB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9865BF2-7BAD-4D93-9048-1C2C673FBB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9865BF2-7BAD-4D93-9048-1C2C673FBB0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{96388DCB-EFFA-4BD4-9FC9-B125F44324E3} = {0B7C35AB-5EA5-4A8C-872A-68BE9F6CC3D0}
 		{44C79467-517B-4E1C-9FF6-931FCC1E829B} = {96388DCB-EFFA-4BD4-9FC9-B125F44324E3}
+		{689F39C8-8E34-4503-98C2-42B82F1EB989} = {0B7C35AB-5EA5-4A8C-872A-68BE9F6CC3D0}
+		{B9865BF2-7BAD-4D93-9048-1C2C673FBB0D} = {689F39C8-8E34-4503-98C2-42B82F1EB989}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74598A92-45FF-46BD-9BA8-5596A30516B6}

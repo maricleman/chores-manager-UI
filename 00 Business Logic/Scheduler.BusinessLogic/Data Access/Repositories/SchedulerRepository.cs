@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Scheduler.BusinessLogic.Data_Access.Repositories
 {
-    public class SchedulerRepository
+    public class SchedulerRepository : ISchedulerRepository
     {
         private readonly ISchedulerContext _schedulerContext;
 

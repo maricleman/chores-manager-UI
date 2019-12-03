@@ -18,6 +18,7 @@ namespace Scheduler.BusinessLogic.Data_Access.DbContexts
         }
 
         public virtual DbSet<Person> Persons { get; set; }
+        public virtual DbSet<Chore> Chores { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
