@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Scheduler.BusinessLogic.Data_Access.Repositories;
 using Microsoft.OpenApi.Models;
+using Scheduler.BusinessLogic.Data_Access.DbContexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace Scheduler.API
 {
@@ -28,7 +30,15 @@ namespace Scheduler.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddTransient<ISchedulerRepository, SchedulerRepository>();
+            //services.AddTransient<ISchedulerRepository, SchedulerRepository>();
+            
+            //Add EF services to the services container
+            //services.AddEntityFrameworkSqlServer()
+            //    .AddDbContext<SchedulerContext>(options =>
+            //    options.UseSqlServer(Configuration["SchedulerDbConnectionString"]));
+
+            //Register the service and implementation for the database context
+            //services.AddScoped<ISchedulerContext, SchedulerContext>();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>

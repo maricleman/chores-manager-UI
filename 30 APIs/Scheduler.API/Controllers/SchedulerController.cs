@@ -9,14 +9,17 @@ using Scheduler.BusinessLogic.DTOs;
 
 namespace Scheduler.API.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class SchedulerController : Controller
     {
-        private readonly ISchedulerRepository _schedulerRepository;
+        //private readonly ISchedulerRepository _schedulerRepository;
 
-        public SchedulerController(ISchedulerRepository schedulerRepository)
-        {
-            _schedulerRepository = schedulerRepository;
-        }
+        //public SchedulerController(ISchedulerRepository schedulerRepository)
+        //{
+        //    _schedulerRepository = schedulerRepository;
+        //}
+        [HttpGet]
         public IEnumerable<PersonDto> Index()
         {
             //var results = _schedulerRepository.GetAllPeopleInHousehold();
